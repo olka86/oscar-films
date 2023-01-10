@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Oscar Films</title>
+  <style>
+   html { scroll-behavior: smooth }
+   .container {
+	width: 800px;
+	margin: 0 auto;
+	font-family: sans-serif;
+   }
+   h1 { 
+	text-align: center;
+	background: #cd950c;
+	color: #999999;
+	box-shadow: 1px 2px 5px #222;
+	text-shadow: 1px 2px 2px #000, -1px -2px 2px #fff;
+	border-radius: 20px;
+	padding: 5px;
+   }
+   h1:hover {
+	text-shadow: -1px -2px 2px #000, 1px 2px 2px #fff;
+   }
+   nav img {
+    border-radius: 13px 20px;
+    width: 100px; /* ширина блока */
+    margin: 5px; /* Отступ снизу */
+	box-shadow: 2px 3px 5px #888;
+   }
+   nav img:hover {
+	box-shadow: -2px -3px 3px #888;
+   }
+   .t{ 
+	text-align: center;
+	font-weight: bold;
+	}
+   p {
+	font-size: 14px;
+	line-height: 1.5;
+	width: 400px;
+	text-align: justify;
+   }
+   span { font-weight: bold; }
+   footer{
+	background: #ccc;
+	margin-top: 20px;
+	padding: 10px;
+   }
+   th, td
+	{
+	border-top: 1px solid #999;
+	padding: 5px;
+	}
+	th{
+	text-align: center;
+	background: #cd950c;
+	}
+   table img{
+	width: 100px;
+	}
+	.t1{ text-align: right; border: none;}
+  </style>
+ </head> 
+ <body>
+  <div class="container">
+	<header>
+		<h1 id="top">ТОП-7 фильмов Оскар</h1>
+		<hr>
+	</header>
+	<nav>
+		<a href="#titanic"><img src="images/titanic.jpg" alt="Титаник" title="Титаник"></a>
+		<a href="#ben"><img src="images/ben.jpg" alt="Бен-Гур" title="Бен-Гур"></a>
+		<a href="#grav"><img src="images/grav.jpg" alt="Гравитация" title="Гравитация"></a>
+		<a href="#glad"><img src="images/glad.jpg" alt="Гладиатор" title="Гладиатор"></a>
+		<a href="#vizivsh"><img src="images/vizivsh.jpg" alt="Выживший" title="Выживший"></a>
+		<a href="#avatar"><img src="images/avatar.jpg" alt="Аватар" title="Аватар"></a>
+		<a href="#pantera"><img src="images/pantera.jpg" alt="Черная пантера" title="Черная пантера"></a>
+	</nav>	
+	<hr>
+	
+	<article>
+	<table>
+	<tr>
+	<th> Место </th>
+	<th> Фото </th>
+	<th> Описание</th>
+	<th> Количество номинаций </th>
+	<th> Количество оскаров </th>
+	</tr>
+	<!--Титаник-->
+	<tr>
+		<td class="t">1</td>
+		<td><img src="images/titanic.jpg" alt="Титаник" title="Титаник"></td>
+		<td> <h2 id="titanic">Титаник (1997)</h2>
+			 <p><span>Страна:</span> США</p>
+		  	 <p><span>Жанр:</span> драма, исторический, мелодрама</p>
+		     <p><span>Режиссер:</span> Джеймс Кемерон</p>
+		     <p><span>В главных ролях:</span> Леонардо ДиКаприо, Кейт Уинслет</p></td>
+		<td class="t"> 14 </td>
+		<td class="t"> 12 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>
+	</tr>
+	<!--Бен-Гур-->
+	<tr>
+		<td class="t">2</td>
+		<td><img src="images/ben.jpg" alt="Бен-Гур" title="Бен-Гур"></td>
+		<td> <h2 id="ben">Бен-Гур (1959)</h2>
+			 <p><span>Страна:</span> США</p>
+		  	 <p><span>Жанр:</span> боевик, драма, исторический, мелодрама</p>
+		     <p><span>Режиссер:</span> Уильям Уайлер</p>
+		     <p><span>В главных ролях:</span> Хью Гриффит, Джек Хоукинс</p></td>
+		<td class="t"> 12 </td>
+		<td class="t"> 11 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>
+	</tr>
+	<!--Гравитация (2013)-->
+	<tr>
+		<td class="t">3</td>
+		<td><img src="images/grav.jpg" alt="Гравитация" title="Гравитация"></td>
+		<td> <h2 id="grav">Гравитация (2013)</h2>
+			 <p><span>Страна:</span> США, Великобритания</p>
+		  	 <p><span>Жанр:</span> триллер фантастика</p>
+		     <p><span>Режиссер:</span> Альфонсо Куарон</p>
+		     <p><span>В главных ролях:</span> Дродж Клуни, Сандра Баллок</p></td>
+		<td class="t"> 10 </td>
+		<td class="t"> 7 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>
+	<!--Гладиатор (2000)-->
+	<tr>
+		<td class="t">4</td>
+		<td><img src="images/glad.jpg" alt="Гладиатор" title="Гладиатор"></td>
+		<td> <h2 id="glad">Гладиатор (2000)</h2>
+			 <p><span>Страна:</span> США, Великобритания</p>
+		  	 <p><span>Жанр:</span> боевик, драма, исторический, приключения</p>
+		     <p><span>Режиссер:</span> Ридли Скотт</p>
+		     <p><span>В главных ролях:</span> Рассел Кроу, Хоакин Феникс</p></td>
+		<td class="t"> 12 </td>
+		<td class="t"> 5 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>	
+	<!--Выживший (2015)-->
+	<tr>
+		<td class="t">5</td>
+		<td><img src="images/vizivsh.jpg" alt="Выживший" title="Выживший"></td>
+		<td> <h2 id="vizivsh">Выживший (2015)</h2>
+			 <p><span>Страна:</span> США</p>
+		  	 <p><span>Жанр:</span> драма, исторический, приключения</p>
+		     <p><span>Режиссер:</span> Алехандро Гонсалес Иньярриту</p>
+		     <p><span>В главных ролях:</span> Леонардо ДиКаприо, Том Харди</p></td>
+		<td class="t"> 12 </td>
+		<td class="t"> 3 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>
+	</tr>
+	<!--Аватар (2009)-->
+	<tr>
+		<td class="t">6</td>
+		<td><img src="images/avatar.jpg" alt="Аватар" title="Аватар"></td>
+		<td> <h2 id="avatar">Аватар (2009)</h2>
+			 <p><span>Страна:</span> США</p>
+		  	 <p><span>Жанр:</span> боевик, драма, приключения, фантастика</p>
+		     <p><span>Режиссер:</span> Джеймс Кемерон</p>
+		     <p><span>В главных ролях:</span> Сэм Уортингтон, Зои Солдана</p></td>
+		<td class="t"> 9 </td>
+		<td class="t"> 3 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>
+	</tr>
+	<!--Черная пантера 2018-->
+	<tr>
+		<td class="t">7</td>
+		<td><img src="images/pantera.jpg" alt="Черная пантера" title="Черная пантера"></td>
+		<td> <h2 id="pantera">Черная пантера (2018)</h2>
+			 <p><span>Страна:</span> США</p>
+		  	 <p><span>Жанр:</span> боевик, кинокомикс, приключения</p>
+		     <p><span>Режиссер:</span> Райан Куглер</p>
+		     <p><span>В главных ролях:</span> Чэдвик Боузман, Майкл Джордан</p></td>
+		<td class="t"> 7 </td>
+		<td class="t"> 3 </td>
+	</tr>
+	<tr>
+	<td colspan = 5 class ="t1"><a href="#top">Наверх</a></td>
+	</tr>
+	</table>
+	</article>
+  </div> <!-- /container -->
+  <footer>
+		<div class="container">
+		<nav>
+			<a href="#titanic"><img src="images/titanic.jpg" alt="Титаник" title="Титаник"></a>
+			<a href="#ben"><img src="images/ben.jpg" alt="Бен-Гур" title="Бен-Гур"></a>
+			<a href="#grav"><img src="images/grav.jpg" alt="Гравитация" title="Гравитация"></a>
+			<a href="#glad"><img src="images/glad.jpg" alt="Гладиатор" title="Гладиатор"></a>
+			<a href="#vizivsh"><img src="images/vizivsh.jpg" alt="Выживший" title="Выживший"></a>
+			<a href="#avatar"><img src="images/avatar.jpg" alt="Аватар" title="Аватар"></a>
+			<a href="#pantera"><img src="images/pantera.jpg" alt="Черная пантера" title="Черная пантера"></a>
+		</nav>	
+		</div> <!-- //container -->
+	</footer>
+ </body> 
+</html>
